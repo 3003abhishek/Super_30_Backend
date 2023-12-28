@@ -1,10 +1,29 @@
 const fs = require("fs");
 
-const text = fs.readFileSync("./textfile.txt" , "utf-8");
+const text = fs.readFile("./textfile.txt" , "utf-8", (err , data)=>{
+    try {
+        console.log(`./${data}.txt`);
+        fs.readFile(`./${data}.txt` , "utf-8" , (err , data)=>{
 
-const note = " Dhui kla maksudai" ;
-fs.writeFileSync("./write.txt",note);
-console.log(text);
-let name = "gandhi" ;
+            if(err){
+            console.log(err.message);
+            }
+            
+            fs.writeFile("./final.txt" , data , (err )=>{
+                console.log({data});
+                if(err) {
+                    console.log(err);
+                }
+                console.log ("I am trying to write some file ");
+            }) ;
+            
+        })
 
-console.log(name);
+    }
+    catch (err) {
+        console.log(err);
+    }
+});
+
+
+

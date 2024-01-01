@@ -19,10 +19,12 @@ const server = http.createServer((req,res)=>{
    }
 
    else if(url[1] =="career"){
+    
     res.end("This is the career page ") ;
    }
    
    else {
+    res.writeHead(404, "Eku Nae bhai");
     res.end("The server is starting on port 8080");
    }
     

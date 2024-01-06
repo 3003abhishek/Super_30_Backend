@@ -1,0 +1,75 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "Bella Italia",
+        "image": "https://example.com/restaurants/bella_italia.jpg",
+        "foods": [
+          {
+            "id": 101,
+            "name": "Margherita Pizza",
+            "price": 9.99,
+            "image": "https://example.com/foods/margherita_pizza.jpg",
+            "availability": true,
+            "description": "Traditional pizza with tomato, mozzarella, and basil."
+          },
+          {
+            "id": 102,
+            "name": "Pasta Carbonara",
+            "price": 12.49,
+            "image": "https://example.com/foods/pasta_carbonara.jpg",
+            "availability": true,
+            "description": "Spaghetti with egg, cheese, pancetta, and black pepper."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Spice Palace",
+        "image": "https://example.com/restaurants/spice_palace.jpg",
+        "foods": [
+          {
+            "id": 201,
+            "name": "Chicken Tikka Masala",
+            "price": 11.99,
+            "image": "https://example.com/foods/chicken_tikka_masala.jpg",
+            "availability": true,
+            "description": "Grilled chicken in a rich tomato-based sauce."
+          },
+          {
+            "id": 202,
+            "name": "Vegetable Biryani",
+            "price": 10.99,
+            "image": "https://example.com/foods/vegetable_biryani.jpg",
+            "availability": true,
+            "description": "Fragrant rice with mixed vegetables and spices."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Sushi House",
+        "image": "https://example.com/restaurants/sushi_house.jpg",
+        "foods": [
+          {
+            "id": 301,
+            "name": "Sashimi Platter",
+            "price": 18.99,
+            "image": "https://example.com/foods/sashimi_platter.jpg",
+            "availability": true,
+            "description": "Assortment of fresh raw fish slices."
+          },
+          {
+            "id": 302,
+            "name": "Dragon Roll",
+            "price": 14.99,
+            "image": "https://example.com/foods/dragon_roll.jpg",
+            "availability": true,
+            "description": "Eel, avocado, cucumber inside; topped with thinly sliced avocado."
+          }
+          
+        ]
+      }
+    ]
+  }
+  
